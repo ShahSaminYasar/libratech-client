@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  padding: 80px 10px;
+}
+
+.modal {
+  z-index: 999 !important;
+}
+
+.libratech_form input,
+.libratech_form textarea,
+.libratech_form select {
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #1b1b1b;
+  padding: 10px 15px;
+  outline: none;
+}
